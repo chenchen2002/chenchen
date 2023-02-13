@@ -24,6 +24,7 @@ for p in range (1,3):
             'content': recipe_content
         }
         info_list.append(info)
+        #Test
 with open('recipe.txt', 'w', encoding='utf-8') as f:
       for i in info_list:
         text = '题目：{}\n内容：{}\n\n'.format(i['title'], i['content'])
